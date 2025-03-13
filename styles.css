@@ -1,0 +1,61 @@
+/* Global Reset */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero {
+    height: 70vh;
+    background: url('front.webp') no-repeat center center/cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(52, 73, 105, 0.5);
+    text-shadow:
+        -1px -1px 0 rgb(82, 98, 153),
+         1px -1px 0 rgb(82, 98, 153),
+        -1px  1px 0 rgb(82, 98, 153),
+         1px  1px 0 rgb(82, 98, 153),
+        -2px -2px 0 rgb(82, 98, 153),
+         2px -2px 0 rgb(82, 98, 153),
+        -2px  2px 0 rgb(82, 98, 153),
+         2px  2px 0 rgb(82, 98, 153);
+    padding: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Services Section */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Image for Cards */
+.card-img-top {
+    width: 100%;
+    height: auto;
+    max-height: 250px; /* Ensures image doesn't get too tall */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+}
+
+/* About Section */
+.about {
+    background: #343a40;
+    color: white;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background: #212529;
+}

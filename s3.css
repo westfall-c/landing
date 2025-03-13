@@ -1,0 +1,87 @@
+/* Global Reset */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero {
+    height: 30vh;
+    background: url('https://source.unsplash.com/1600x900/?bicycle,urban') no-repeat center center/cover;
+    color: rgb(53, 54, 109);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
+
+/* Services Section */
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) -(var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex
+;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-icon {
+    font-size: 40px;
+    color: #28a745;
+    margin-top: 15px;
+}
+.card-img, .card-img-top {
+    border-top-left-radius: var(--bs-card-inner-border-radius);
+    border-top-right-radius: var(--bs-card-inner-border-radius);
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+
+        max-width: 300px;  /* Image will never exceed 500px */
+        width: 100%;       /* Allows it to shrink as needed */
+        height: auto;      /* Maintains aspect ratio */
+    
+}
+/* About Section */
+.about {
+    background: #343a40;
+    color: white;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background: #212529;
+}

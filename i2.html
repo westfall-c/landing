@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revive Cycles - Refurbished Bicycles</title>
+    <link rel="stylesheet" href="s2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="logo">
+            <h1>Revive Cycles</h1>
+        </div>
+
+        <div id="menu-icon">&#9776;</div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Why Choose Us</a></li>
+                <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                <li><a class="nav-link" href="#pricing">Our Bicycles</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Beans &amp; Snickers Enterprises</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Premium Refurbished Bicycles, Ready to Ride</h2>
+        <p>Top-quality bikes at a fraction of the price. Sustainable. Reliable. Affordable.</p>
+        <form id="form" action="#">
+            <input type="email" id="email" name="email" placeholder="Enter your email for exclusive deals">
+            <input type="submit" id="submit" value="Subscribe">
+        </form>
+    </section>
+
+    <section id="features">
+        <div class="feature">
+            <i class="fas fa-recycle"></i>
+            <h3>Sustainable & Eco-Friendly</h3>
+            <p>We restore and refurbish bicycles, giving them a new life while reducing waste.</p>
+        </div>
+
+        <div class="feature">
+            <i class="fas fa-tools"></i>
+            <h3>Quality Guaranteed</h3>
+            <p>Each bike is thoroughly inspected and tested to ensure top performance.</p>
+        </div>
+
+        <div class="feature">
+            <i class="fas fa-biking"></i>
+            <h3>Affordable & Stylish</h3>
+            <p>Get a premium ride without breaking the bank. Ride in style at a lower cost.</p> 
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <p>We collect, restore, and resell high-quality bicycles at unbeatable prices.</p>
+        <ul>
+            <li><strong>Step 1:</strong> We source bikes from trusted partners.</li>
+            <li><strong>Step 2:</strong> Our expert mechanics refurbish and upgrade each model.</li>
+            <li><strong>Step 3:</strong> You choose your perfect bike and start riding!</li>
+        </ul>
+    </section>
+
+    <section id="pricing">
+        <div class="product">
+            <img src="cc.jpg" width="300" height="250" alt="City Cruiser"></img>
+            <h3>City Cruiser</h3>
+            <h2>$250</h2>
+            <p>Perfect for daily commutes and city riding.</p>
+            <button class="btn">View Details</button>
+        </div>
+
+        <div class="product">
+            <img src="mb.webp" width="300" height="250" alt="City Cruiser"></img>
+            <h3>Mountain Bike</h3>
+            <h2>$450</h2>
+            <p>Built for adventure, ready for any terrain.</p>
+            <button class="btn">View Details</button>
+        </div>
+
+        <div class="product">
+            <img src="rb.jpg" width="300" height="250" alt="City Cruiser"></img>
+            <h3>Road Bike</h3>
+            <h2>$600</h2>
+            <p>Lightweight and fast for long-distance rides.</p>
+            <button class="btn">View Details</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out and let's get you rolling!</p>
+        <p>Email: support@revivecycles.com | Phone: (555) 123-4567</p>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        document.getElementById('menu-icon').addEventListener('click', function () {
+            document.getElementById('nav-bar').classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>

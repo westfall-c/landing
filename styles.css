@@ -54,9 +54,16 @@ body {
 /* Contact Section */
 #contact p {
     font-size: 1.2em;
-}
 
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* Footer */
 footer {
     background: #212529;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
